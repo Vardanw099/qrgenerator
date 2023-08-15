@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/qrgenerator/static/css/main.517d90f1.css",
-    "main.js": "/qrgenerator/static/js/main.a45c210a.js",
+    "main.css": "/qrgenerator/static/css/main.49154c2b.css",
+    "main.js": "/qrgenerator/static/js/main.9b7320f9.js",
     "static/js/787.46110cca.chunk.js": "/qrgenerator/static/js/787.46110cca.chunk.js",
     "index.html": "/qrgenerator/index.html",
     "static/media/menu.svg": "/qrgenerator/static/media/menu.f61d4002b12995d8c1206e3b8bb3b523.svg",
     "static/media/close.svg": "/qrgenerator/static/media/close.3958c9d0552e14ff5bb0637c8562353b.svg",
-    "main.517d90f1.css.map": "/qrgenerator/static/css/main.517d90f1.css.map",
-    "main.a45c210a.js.map": "/qrgenerator/static/js/main.a45c210a.js.map",
+    "main.49154c2b.css.map": "/qrgenerator/static/css/main.49154c2b.css.map",
+    "main.9b7320f9.js.map": "/qrgenerator/static/js/main.9b7320f9.js.map",
     "787.46110cca.chunk.js.map": "/qrgenerator/static/js/787.46110cca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.517d90f1.css",
-    "static/js/main.a45c210a.js"
+    "static/css/main.49154c2b.css",
+    "static/js/main.9b7320f9.js"
   ]
 }
