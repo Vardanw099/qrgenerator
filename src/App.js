@@ -117,7 +117,7 @@ function App() {
             padding={5}
             size={200}
             level="H"
-            image={media !== "" ? `../images/${media}.svg` : undefined}
+            image={media !== "" ? `./images/${media}.svg` : undefined}
             // imageBig
             bgRounded
             divider
