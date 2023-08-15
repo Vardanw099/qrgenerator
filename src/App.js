@@ -63,7 +63,7 @@ function App() {
     <div className="bg-purple-900 w-screen h-screen flex justify-center items-center ">
       <div
         onClick={() => setdisp(!disp)}
-        className={`max-md:hidden${
+        className={`lg:hidden ${
           !disp
             ? "absolute top-0 left-0 z-20"
             : "absolute bottom-0 right-0 z-20"
@@ -75,17 +75,16 @@ function App() {
           <Close className="w-11 h-10 fill-red-700" />
         )}
       </div>
-      {disp ? (
-        <Settings
-          onChange={eyesColor}
-          onBodyColor={bodyColor}
-          onBgChange={bgChange}
-          onEyes={eyesChange}
-          onBody={bodyChange}
-          onMedia={mediaLogo}
-          onRemove={removeLogo}
-        />
-      ) : null}
+      <Settings
+        onChange={eyesColor}
+        onBodyColor={bodyColor}
+        onBgChange={bgChange}
+        onEyes={eyesChange}
+        onBody={bodyChange}
+        onMedia={mediaLogo}
+        onRemove={removeLogo}
+        onHide={disp}
+      />
       <form
         onSubmit={createQr}
         className="w-3/5 rounded-3xl border-purple-800 bg-purple-700 shadow-xl h-4/5 border flex flex-col justify-around items-center max-sm:w-4/5"
@@ -152,3 +151,5 @@ function App() {
 }
 
 export default App;
+
+// event loop, promiss,async, primitiv no primitiv,

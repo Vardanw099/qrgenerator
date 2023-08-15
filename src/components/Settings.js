@@ -8,6 +8,7 @@ const Settings = ({
   onBody,
   onMedia,
   onRemove,
+  onHide,
 }) => {
   const variants = [
     "standard",
@@ -48,9 +49,9 @@ const Settings = ({
 
   return (
     <div
-      className={
-        "absolute left-0 w-1/6 rounded-se-3xl rounded-ee-3xl shadow-2xl overflow-hidden pt-2 pl-2 pr-2 h-5/6 bg-white max-md:w-full max-md:h-full max-md:rounded-none"
-      }
+      className={`absolute left-0 w-1/6 rounded-se-3xl rounded-ee-3xl shadow-2xl overflow-hidden pt-2 pl-2 pr-2 h-5/6 bg-white max-md:w-full max-md:h-full max-md:rounded-none ${
+        !onHide ? "max-md:hidden " : null
+      } animate-[fromLeft_1s_ease-in-out_forwards]`}
     >
       <label
         for="eyesColor"
