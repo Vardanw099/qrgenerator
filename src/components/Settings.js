@@ -122,9 +122,9 @@ const Settings = ({
       <div className="w-full md:mt-2 mt-3 pl-2 flex flex-wrap justify-center">
         {social.map((item, index) => (
           <img
-            src={`../../images/${item}.svg`}
+            src={`./images/${item}.svg`}
             onClick={() => mediaLogo(item)}
-            className="w-14 md:p-1 p-2 md:w-8"
+            className="w-14 h-14 md:p-1 p-2 md:w-8"
             alt=""
           />
         ))}

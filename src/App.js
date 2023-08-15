@@ -63,11 +63,11 @@ function App() {
     <div className="bg-purple-900 w-screen h-screen flex justify-center items-center ">
       <div
         onClick={() => setdisp(!disp)}
-        className={
+        className={`max-md:hidden${
           !disp
             ? "absolute top-0 left-0 z-20"
             : "absolute bottom-0 right-0 z-20"
-        }
+        }`}
       >
         {!disp ? (
           <Menu className="text-violet-300 w-11 h-10" />
